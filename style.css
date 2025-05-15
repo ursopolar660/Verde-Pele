@@ -142,7 +142,7 @@ menu{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #F2F2F2;
+    background-image: linear-gradient(to top, #e5e5e5, white);
     padding: 1em;
     
 
@@ -209,3 +209,132 @@ menu{
 
 }    
 
+.provas{
+    display: flex;
+    padding-top: 0.3em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    background-image: url('./img/Desodorante-bastão.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    & h3{
+        background-color: #6F8E61;
+        padding: 1em;
+        width: 100svw;
+        font-size: 2em;
+        color: white;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+   
+    & .videos{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    padding: 1.5em;
+    
+    & .video{
+            margin-inline: 1em;
+            border-radius: 1em;
+            height: 100svh;
+            width: auto;
+        }
+        & img{
+            width: 50%;
+            height: auto;
+            border-radius: 1em;
+        }
+
+    }
+    
+}
+
+footer{
+    background-color: #5C9641;
+    color: white;
+    text-align: center;
+    padding: 1em;
+
+    & h3{
+        font-size: 2em;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    & p{
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 20px;
+
+        & a{
+            text-decoration: none;
+            color: white;
+            padding: 5px 10px;
+
+            &:hover{
+                background-color: #5C9641;
+                border-radius: 5px;
+                color: #000;
+                transition: all 0.3s ease;
+            }
+
+        }
+    }
+    & .contatos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1em;
+        
+        color: white;
+
+        & ul{
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            & li{
+            
+                list-style: none;
+                margin: 0 20px;
+                overflow-y: hidden;
+                font-size: 20px;
+                font-weight: 700;
+                
+                & a{
+                    text-decoration: none;
+                    color: #000;
+                    padding: 5px 10px;
+                    font-size: 1.2em;
+                    
+
+                    & img{
+                        width: 1em;
+                        margin-right: 0.6em;
+                        fill: white;
+
+                    }
+
+                    &:hover{
+                        background-color: #5C9641;
+                        border-radius: 5px;
+                        color: white;
+                        transition: all 0.3s ease;
+                    }
+
+                }
+            }
+        }
+
+
+    }
+}
