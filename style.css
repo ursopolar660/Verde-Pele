@@ -172,7 +172,18 @@ menu{
                 height: auto;
                 border-radius: 1em;
                 margin-bottom: 1em;
+                
             }
+
+            .modify{
+                width: 12em;
+                height: auto;
+                margin-top:-8px;
+                border-radius: 1em;
+                margin-bottom: 1em;
+            }
+
+            
     
             & h4{
                 font-size: 1.5em;
@@ -191,6 +202,7 @@ menu{
                 color: #7EE34F;
                 background-color: #31392D;
                 padding: 10px 20px;
+                align-items: center;
                 text-decoration: none;
                 text-transform: uppercase;
                 border: 1px solid #31392D;
